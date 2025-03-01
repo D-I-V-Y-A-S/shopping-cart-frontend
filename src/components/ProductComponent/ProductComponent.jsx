@@ -56,7 +56,8 @@ const ProductComponent = ({productItem}) => {
         alert(`${productItem.productName} is added to cart successfully`)
         setSelectedQuantity(0)
       }
-      console.log(`${Base_Url}/assets/`)
+ 
+        console.log(`${Base_Url}/assets/${productItem.productImagePath}`)
     }
   }
 
@@ -67,7 +68,7 @@ return (
             <p className="status">
               {productItem.productCategory} ({productItem.productID})
             </p>
-            console.log(`${Base_Url}/assets/${productItem.productImagePath}`)
+  
 <img 
   src={`https://raw.githubusercontent.com/D-I-V-Y-A-S/Shopping-cart-be/main/assets/${productItem.productImagePath}`} 
   alt={productItem.productName} 
