@@ -67,7 +67,8 @@ return (
             <p className="status">
               {productItem.productCategory} ({productItem.productID})
             </p>
-            <img src={`${Base_Url}/assets/${productItem.productImagePath}`}/>
+            //<img src={`${Base_Url}/assets/${productItem.productImagePath}`}/>
+            <img src={`https://github.com/D-I-V-Y-A-S/Shopping-cart-be/blob/main/assets/${productItem.productImagePath}`}/>
             <p className="title">Price</p>
             <p className='author'>Rs. {productItem.productCost}</p>
             <p className="availability">Available stock : {stockQuantity}</p>
