@@ -67,7 +67,7 @@ return (
             <p className="status">
               {productItem.productCategory} ({productItem.productID})
             </p>
-            // <img src={`${Base_Url}/assets/${productItem.productImagePath}`}/>
+            console.log(`${Base_Url}/assets/${productItem.productImagePath}`)
 <img 
   src={`https://raw.githubusercontent.com/D-I-V-Y-A-S/Shopping-cart-be/main/assets/${productItem.productImagePath}`} 
   alt={productItem.productName} 
