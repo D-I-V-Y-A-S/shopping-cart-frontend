@@ -1,0 +1,51 @@
+.submit-button{
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+img
+{
+    width: 225px;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+}
+
+.counter-number{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.counter-button{
+    font-size: 1rem;
+    display: block;
+    width: 20%;
+    padding: 10px 0px 10px 0px;
+    margin: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: #45a049;
+}
