@@ -71,7 +71,6 @@ return (
 <img 
   src={`https://raw.githubusercontent.com/D-I-V-Y-A-S/Shopping-cart-be/main/assets/${productItem.productImagePath}`} 
   alt={productItem.productName} 
-  onError={(e) => e.target.src = '/fallback-image.jpg'} 
 />
 
             <p className="title">Price</p>
